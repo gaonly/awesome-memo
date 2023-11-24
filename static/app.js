@@ -29,7 +29,7 @@ function displayMemo(memo) {
   li.innerText = `[id:${memo.id}]${memo.content}`;
 
   const editBtn = document.createElement("button");
-  editBtn.innerText = "수정하기";
+  editBtn.innerText = "수정하기!";
   editBtn.addEventListener("click", editMemo);
   editBtn.dataset.id = memo.id;
 
